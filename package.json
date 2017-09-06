@@ -1,0 +1,17 @@
+{
+    "name": "payroll-utils",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+      "build": "go build",
+      "start": "./PayrollUtils",
+      "exec": "go build && ./PayrollUtils",
+      "docker-start": "./startdocker",
+      "docker-build-local": "./buildlocal",
+      "docker-exec-local": "./runlocal"      
+    },
+    "author": "Ladislav Lisy",
+    "license": "MIT",
+    "dependencies": {}
+  }
+  
