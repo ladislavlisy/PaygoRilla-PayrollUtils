@@ -39,6 +39,18 @@ RUN DOCKER IMAGE LOCALY
 ```shell
 docker run -p 8080:8080 ladislavlisy/example-go
 ```
+#INSTALL GINKGO
+
+```shell
+$ go get github.com/onsi/ginkgo
+$ go get github.com/onsi/gomega
+
+$ go install github.com/onsi/ginkgo
+
+cd test_folder
+
+$ ginkgo bootstrap
+```
 
 #INSTALl GO PACKAGES
 
